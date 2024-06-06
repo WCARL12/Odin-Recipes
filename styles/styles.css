@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+header h1 {
+  text-align: center;
+}
+
+div a {
+  display: block;
+  color: red;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 1em;
+}
+.chicken-breast,
+.fried-rice,
+.baked-salmon {
+  width: 33%;
+}
+.chicken-breast img,
+.fried-rice img {
+  margin: 0 auto;
+  display: block;
+  width: 90%;
+}
+.baked-salmon img {
+  margin: 0 auto;
+  display: block;
+  width: 81%;
+}
+section {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 900px) {
+  section {
+    display: block;
+  }
+  .chicken-breast,
+  .fried-rice,
+  .baked-salmon {
+    display: block;
+    width: 70%;
+    margin: 20px auto;
+  }
+}
