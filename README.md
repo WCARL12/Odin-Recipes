@@ -7,4 +7,4 @@
   <li>Fried Rice</li>
   <li>Baked Salmon</li>
 </ul>
-<p>Click here to view the website: <a href='index.html'>Project Recipe</a></p>
+<p>Click here to view the website: <a href='https://wcarl12.github.io/Odin-Recipes/'>Project Recipe</a></p>
